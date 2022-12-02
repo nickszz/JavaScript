@@ -13,19 +13,18 @@ h1{
     color: white;
 }
 
-header{
+section{
     margin: auto;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px black;
-    width: 55%;
-    height: 500px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    padding: 15px;
+    width: 500px;
     background-color: white;
     color: black;
 }
 
-
-input{
-    margin-top: 10px;
-    
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
 }
-
