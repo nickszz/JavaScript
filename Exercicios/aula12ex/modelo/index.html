@@ -13,14 +13,24 @@
   </header>
       <section>
         <div>
-          Ano de Nacimento: <input type="number" name="idade" id="txidade">
-        </div>
-        <div>
-          Sexo: <input type="radio" name="" id="">
+          <p>
+            Ano de Nacimento: <input type="number" name="idade" id="txtano" min="0">
+          </p>
+            <p>
+              Sexo:
+              <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label>
+              <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+            </p>
+            <p>
+              <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+          </div>
+        <div id="res">
+          Preencha os dados acima para ver o resultado!
         </div>
       </section>
     <footer>
-      <p>© CursoemVideo</p>
+      <p>&copy; CursoemVideo</p>
     </footer>
     <script src="script.js"></script>
 </body>
